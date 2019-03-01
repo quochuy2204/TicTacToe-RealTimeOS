@@ -18,6 +18,6 @@ Move to the working directory to place where you have the makefile
 
 "nmake /f makefile.vc all"
 
-     ![alt text](https://github.com/quochuy2204/TicTacToe-RealTimeOS/blob/master/c.png)
+   ![alt text](https://github.com/quochuy2204/TicTacToe-RealTimeOS/blob/master/c.png)
 
 "rtos_1.exe"
