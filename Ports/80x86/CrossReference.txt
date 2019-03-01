@@ -1,0 +1,25 @@
+Compatibility of files in various ports
+
+				LINUX		WIN32-VC	WIN32-CygWin
+
+README.htm			-		yes		yes
+						
+src\pc.h			yes		yes		-
+src\pc.c			yes		yes
+src\os_cpu_c.c			-		yes		yes
+src\os_cpu.h			-		yes		yes
+
+templates\os_cfg.h		yes		yes		yes
+templates\includes.h		yes		yes		yes
+templates\test.c		yes		yes		yes
+templates\makefile		-		-		-
+
+utils\irqGenerator.c		-		yes		yes
+utils\makefile(s)		-		-		-
+
+examples\makeall		-		-		-
+examples\exampleX\test.c	yes		yes		yes
+examples\exampleX\os_cfg.h	yes		yes		yes
+examples\exampleX\includes.h	yes		yes		yes
+examples\exampleX\makefile	-		-		-
+(with X=0,1,2,3,4)
